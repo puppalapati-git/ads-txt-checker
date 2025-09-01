@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="24" viewBox="0 0 220 24">
+  <g fill="none" fill-rule="evenodd">
+    <!-- magnifying glass icon -->
+    <g transform="translate(0,2)">
+      <circle cx="10" cy="10" r="8" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+      <line x1="15.5" y1="15.5" x2="21.5" y2="21.5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="10" cy="10" r="3" fill="#FFFFFF" opacity="0.35"/>
+    </g>
+    <!-- wordmark -->
+    <text x="30" y="17" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">
+      Ads.txt Crawler
+    </text>
+  </g>
+</svg>

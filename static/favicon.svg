@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18204a"/>
+      <stop offset="1" stop-color="#0b1028"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="34" cy="30" r="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7ec8ff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#7ec8ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="url(#bg)"/>
+  <!-- subtle glow -->
+  <circle cx="34" cy="30" r="20" fill="url(#glow)"/>
+  <!-- magnifying glass -->
+  <circle cx="28" cy="28" r="12" stroke="#ffffff" stroke-width="3" fill="none"/>
+  <line x1="36" y1="36" x2="46" y2="46" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <!-- txt letters -->
+  <g fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="8" font-weight="700">
+    <text x="21" y="30">txt</text>
+  </g>
+</svg>
